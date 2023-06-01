@@ -24,3 +24,6 @@ CTestTestfile.cmake
 
 # Ignore Google Test submodule directory if exists
 googletest/
+
+# Ignore VSCode configurations
+.vscode/
