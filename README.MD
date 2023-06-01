@@ -28,26 +28,38 @@ To get started with the project, follow these steps:
    cd sample_math_project
    ```
 
-3. Create a build directory:
+3. Initialize the submodules by running the following command:
+   
+   ```shell
+   git submodule init
+   ```
+
+4. Update the submodules to retrieve the latest commit of each submodule by executing:
+
+   ```shell
+   git submodule update
+   ```
+
+4. Create a build directory:
 
    ```shell
    mkdir build
    ```
 
-4. Configure the project using CMake:
+5. Configure the project using CMake:
 
    ```shell
    cd build
    cmake ..
    ```
 
-5. Build the project:
+6. Build the project:
 
    ```shell
    make
    ```
 
-6. Run the `main` executable:
+7. Run the `main` executable:
 
    ```shell
    ./main
