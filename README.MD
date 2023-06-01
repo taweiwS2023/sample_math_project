@@ -19,7 +19,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/your-username/sample_math_project.git
+   git clone https://github.com/taweiwS2023/sample_math_project.git
    ```
 
 2. Navigate to the project root directory:
