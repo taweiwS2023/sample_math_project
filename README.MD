@@ -25,7 +25,7 @@ To get started with the project, follow these steps:
 2. Navigate to the project root directory:
 
    ```shell
-   cd MyProject
+   cd sample_math_project
    ```
 
 3. Create a build directory:
