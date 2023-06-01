@@ -1,22 +1,22 @@
-# Use a base image with C++ and CMake
-FROM gcc:latest
+# Use a base image with the necessary dependencies for your C++ project
+FROM ubuntu:latest
 
 # Set the working directory inside the container
 WORKDIR /app
 
-# Copy the project files to the container
-COPY . /app
+# Install dependencies required for building and running the C++ project
+RUN apt-get update && apt-get install -y \
+    g++ \
+    cmake
 
-# Install necessary dependencies
-RUN apt-get update && \
-    apt-get install -y cmake && \
-    apt-get clean
+# Copy the project files into the container
+COPY . .
 
-# Build the project
-RUN mkdir build && \
-    cd build && \
-    cmake .. && \
-    make
+# Build the C++ project
+RUN cmake . && make
 
-# Set the entrypoint to run the main executable
-ENTRYPOINT ["./build/main"]
+# Set the entrypoint command to run the compiled main executable
+ENTRYPOINT ["./main"]
+
+# Define the default command to be used when no command-line arguments are provided
+CMD ["--help"]
