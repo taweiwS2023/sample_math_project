@@ -1,0 +1,26 @@
+# Ignore all build directories
+**/build/
+
+# Ignore all .o and .a files
+*.o
+*.a
+
+# Ignore all executables
+**/main
+
+# Ignore all test executables
+**/test_*
+
+# Ignore CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# Ignore Google Test submodule directory if exists
+googletest/
