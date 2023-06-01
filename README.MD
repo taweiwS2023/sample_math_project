@@ -61,14 +61,14 @@ To run the tests, navigate to the build directory and execute the respective tes
 
   ```shell
   cd build/Adder/test
-  ./test_Adder_functions
+  ./gtest_Adder_functions
   ```
 
 - For Multiplier module tests:
 
   ```shell
   cd build/Multiplier/test
-  ./test_Multiplier_functions
+  ./gtest_Multiplier_functions
   ```
 
 ## Contributing
