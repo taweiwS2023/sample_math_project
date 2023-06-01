@@ -1,6 +1,6 @@
 
 
-# MyProject
+# Sample Math Project
 
 This is a C++ project that demonstrates a modular structure and includes an Adder and Multiplier module.
 
