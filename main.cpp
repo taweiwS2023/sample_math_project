@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Multiplier/functions.h"
+#include "Multiplier/multiplier.h"
 
 int main() {
 

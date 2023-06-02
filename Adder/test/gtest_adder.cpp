@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "Adder/functions.h"
+#include "Adder/adder.h"
 
 TEST(AdderTest, HandlesZeroInput) {
   EXPECT_EQ(0, Adder::add(0, 0));
