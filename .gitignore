@@ -27,3 +27,6 @@ googletest/
 
 # Ignore VSCode configurations
 .vscode/
+
+# Ignore .cache
+.cache/
