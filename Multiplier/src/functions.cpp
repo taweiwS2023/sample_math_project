@@ -1,5 +1,5 @@
-#include "Multiplier/multiplier.h"
-#include "Adder/adder.h"
+#include "Multiplier/functions.h"
+#include "Adder/functions.h"
 
 namespace Multiplier {
     int multiply(int a, int b) {

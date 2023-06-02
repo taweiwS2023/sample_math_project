@@ -1,4 +1,4 @@
-#include "Adder/adder.h"
+#include "Adder/functions.h"
 
 namespace Adder {
     int add(int a, int b) {

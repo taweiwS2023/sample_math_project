@@ -1,5 +1,5 @@
 #include "gtest/gtest.h"
-#include "Multiplier/multiplier.h"
+#include "Multiplier/functions.h"
 
 TEST(MultiplierTest, HandlesZeroInput) {
   EXPECT_EQ(0, Multiplier::multiply(2, 0));
