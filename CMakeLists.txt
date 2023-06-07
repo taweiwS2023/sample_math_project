@@ -17,9 +17,6 @@ add_executable(main main.cpp)
 target_link_libraries(main Multiplier)
 
 ## Include and link gtest
-#add_subdirectory(googletest)
-#include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
-
 include(FetchContent)
 FetchContent_Declare(
     googletest

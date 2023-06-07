@@ -8,5 +8,4 @@ int multiply(int a, int b) {
   }
   return product;
 }
-
 }
