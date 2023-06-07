@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 3.10)
+cmake_minimum_required(VERSION 3.25.2)
 
 # set the project name
 project(sample_math_project)
 
 # specify the C++ standard
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 17)
 
 # Include the subdirectories
 add_subdirectory(Adder)
@@ -13,7 +13,7 @@ add_subdirectory(Multiplier)
 # Add the main executable
 add_executable(main main.cpp)
 
-# Link the main executable with the Multiplier library
+# Link the main executable with the multiplier library
 target_link_libraries(main Multiplier)
 
 ## Include and link gtest
@@ -31,3 +31,5 @@ FetchContent_MakeAvailable(googletest)
 link_libraries(${GTEST_LIBRARIES} gtest_main pthread)
 
 target_link_libraries(main gtest gtest_main)
+
+

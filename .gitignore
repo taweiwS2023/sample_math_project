@@ -31,5 +31,10 @@ googletest/
 # Ignore .cache
 .cache/
 
-# Ignore cmake-build-debug
+# Ignore CLion IDE files
+./.idea
+*.iml
+*.ipr
+*.iws
+out/
 cmake-build-debug/

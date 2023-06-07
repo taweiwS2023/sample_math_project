@@ -1,6 +1,6 @@
 # Sample Math Project
 
-This is a C++ project that demonstrates a modular structure and includes an Adder and Multiplier module.
+This is a C++ project that demonstrates a modular structure and includes an Adder and multiplier module.
 
 ## Prerequisites
 
@@ -62,10 +62,10 @@ To run the tests, navigate to the build directory and execute the respective tes
   ./gtest_Adder_functions
   ```
 
-- For Multiplier module tests:
+- For multiplier module tests:
 
   ```shell
-  cd build/Multiplier/test
+  cd build/multiplier/test
   ./gtest_Multiplier_functions
   ```
 
