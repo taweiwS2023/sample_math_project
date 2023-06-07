@@ -31,6 +31,5 @@ googletest/
 # Ignore .cache
 .cache/
 
-# Ignore files created by CLion
-.idea/
+# Ignore cmake-build-debug
 cmake-build-debug/
