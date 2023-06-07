@@ -30,3 +30,7 @@ googletest/
 
 # Ignore .cache
 .cache/
+
+# Ignore files created by CLion
+.idea/
+cmake-build-debug/
