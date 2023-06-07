@@ -32,7 +32,7 @@ googletest/
 .cache/
 
 # Ignore CLion IDE files
-./.idea
+.idea/
 *.iml
 *.ipr
 *.iws
