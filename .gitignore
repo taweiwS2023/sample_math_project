@@ -1,15 +1,10 @@
 # Ignore all build directories
 **/build/
+**/cmake-build-debug/
 
 # Ignore all .o and .a files
 *.o
 *.a
-
-# Ignore all executables
-**/main
-
-# Ignore all test executables
-**/test_*
 
 # Ignore CMake generated files
 CMakeCache.txt
@@ -37,4 +32,36 @@ googletest/
 *.ipr
 *.iws
 out/
-cmake-build-debug/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
